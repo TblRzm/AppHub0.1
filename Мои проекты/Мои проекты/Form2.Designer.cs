@@ -50,6 +50,8 @@ namespace Мои_проекты
             // 
             this.button1.BackColor = System.Drawing.Color.DarkOrange;
             this.button1.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.Location = new System.Drawing.Point(95, 106);
             this.button1.Name = "button1";
@@ -76,6 +78,7 @@ namespace Мои_проекты
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Аутентификация";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);

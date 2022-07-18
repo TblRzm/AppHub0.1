@@ -42,7 +42,8 @@ namespace Мои_проекты
 
         private void linkLabel2_Click(object sender, EventArgs e)
         {
-
+            Form note = new Notes();
+            note.Show();
         }
 
         private void linkLabel3_Click(object sender, EventArgs e)

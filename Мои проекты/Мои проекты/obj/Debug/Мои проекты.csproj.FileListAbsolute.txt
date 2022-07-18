@@ -10,3 +10,7 @@ C:\Users\student.ITSTEP\Documents\Вадимов\Мои проекты\Мои п
 C:\Users\student.ITSTEP\Documents\Вадимов\Мои проекты\Мои проекты\obj\Debug\Мои проекты.exe
 C:\Users\student.ITSTEP\Documents\Вадимов\Мои проекты\Мои проекты\obj\Debug\Мои проекты.pdb
 C:\Users\student.ITSTEP\Documents\Вадимов\Мои проекты\Мои проекты\obj\Debug\Мои_проекты.Calculator.resources
+C:\Users\student.ITSTEP\Documents\Вадимов\Мои проекты\Мои проекты\obj\Debug\Мои_проекты.Notes.resources
+C:\Users\student.ITSTEP\Documents\Вадимов\Мои проекты\Мои проекты\bin\Debug\ru\Мои проекты.resources.dll
+C:\Users\student.ITSTEP\Documents\Вадимов\Мои проекты\Мои проекты\obj\Debug\Мои_проекты.Notes.ru.resources
+C:\Users\student.ITSTEP\Documents\Вадимов\Мои проекты\Мои проекты\obj\Debug\ru\Мои проекты.resources.dll

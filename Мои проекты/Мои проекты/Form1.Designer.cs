@@ -41,7 +41,7 @@ namespace Мои_проекты
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.label1.Font = new System.Drawing.Font("Arial", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(160, 132);
+            this.label1.Location = new System.Drawing.Point(54, 150);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(383, 44);
             this.label1.TabIndex = 0;
@@ -56,7 +56,7 @@ namespace Мои_проекты
             this.linkLabel1.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.linkLabel1.ForeColor = System.Drawing.SystemColors.Control;
             this.linkLabel1.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel1.Location = new System.Drawing.Point(268, 279);
+            this.linkLabel1.Location = new System.Drawing.Point(166, 269);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(140, 29);
             this.linkLabel1.TabIndex = 1;
@@ -73,7 +73,7 @@ namespace Мои_проекты
             this.linkLabel2.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.linkLabel2.ForeColor = System.Drawing.SystemColors.Control;
             this.linkLabel2.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel2.Location = new System.Drawing.Point(249, 338);
+            this.linkLabel2.Location = new System.Drawing.Point(142, 337);
             this.linkLabel2.Name = "linkLabel2";
             this.linkLabel2.Size = new System.Drawing.Size(190, 29);
             this.linkLabel2.TabIndex = 2;
@@ -90,7 +90,7 @@ namespace Мои_проекты
             this.linkLabel3.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.linkLabel3.ForeColor = System.Drawing.SystemColors.Control;
             this.linkLabel3.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel3.Location = new System.Drawing.Point(283, 417);
+            this.linkLabel3.Location = new System.Drawing.Point(181, 420);
             this.linkLabel3.Name = "linkLabel3";
             this.linkLabel3.Size = new System.Drawing.Size(125, 29);
             this.linkLabel3.TabIndex = 3;
@@ -105,7 +105,7 @@ namespace Мои_проекты
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(734, 511);
+            this.ClientSize = new System.Drawing.Size(477, 511);
             this.Controls.Add(this.linkLabel3);
             this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.linkLabel1);

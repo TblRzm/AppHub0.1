@@ -29,6 +29,7 @@ namespace Мои_проекты
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Calculator));
             this.lblfirst = new System.Windows.Forms.Label();
             this.lblsecond = new System.Windows.Forms.Label();
             this.lblresult = new System.Windows.Forms.Label();
@@ -108,6 +109,10 @@ namespace Мои_проекты
             // divide
             // 
             this.divide.BackColor = System.Drawing.Color.Coral;
+            this.divide.FlatAppearance.BorderSize = 0;
+            this.divide.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.divide.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.divide.ForeColor = System.Drawing.SystemColors.ControlText;
             this.divide.Location = new System.Drawing.Point(226, 167);
             this.divide.Name = "divide";
             this.divide.Size = new System.Drawing.Size(50, 50);
@@ -119,6 +124,10 @@ namespace Мои_проекты
             // Increasement
             // 
             this.Increasement.BackColor = System.Drawing.Color.Coral;
+            this.Increasement.FlatAppearance.BorderSize = 0;
+            this.Increasement.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Increasement.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Increasement.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Increasement.Location = new System.Drawing.Point(162, 167);
             this.Increasement.Name = "Increasement";
             this.Increasement.Size = new System.Drawing.Size(50, 50);
@@ -130,6 +139,10 @@ namespace Мои_проекты
             // decrement
             // 
             this.decrement.BackColor = System.Drawing.Color.Coral;
+            this.decrement.FlatAppearance.BorderSize = 0;
+            this.decrement.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.decrement.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.decrement.ForeColor = System.Drawing.SystemColors.ControlText;
             this.decrement.Location = new System.Drawing.Point(92, 167);
             this.decrement.Name = "decrement";
             this.decrement.Size = new System.Drawing.Size(50, 50);
@@ -141,6 +154,9 @@ namespace Мои_проекты
             // increment
             // 
             this.increment.BackColor = System.Drawing.Color.Coral;
+            this.increment.FlatAppearance.BorderSize = 0;
+            this.increment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.increment.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.increment.ForeColor = System.Drawing.SystemColors.ControlText;
             this.increment.Location = new System.Drawing.Point(27, 167);
             this.increment.Name = "increment";
@@ -164,6 +180,8 @@ namespace Мои_проекты
             this.Controls.Add(this.lblresult);
             this.Controls.Add(this.lblsecond);
             this.Controls.Add(this.lblfirst);
+            this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Calculator";
             this.Text = "AH Калькулятор";
             this.ResumeLayout(false);
